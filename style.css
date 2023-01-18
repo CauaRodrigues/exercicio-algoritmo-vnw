@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before,
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+	font-family: "Sofia Sans", sans-serif;
+	line-height: 1.7;
+	-webkit-font-smoothing: antialiased;
+	text-decoration: none;
+}
+
+body,
+html {
+	background-color: #201f2b;
+	color: color;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: min(2rem, 5vw);
+	text-align: center;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: min(1.6rem, 4vw);
+}
+
+main {
+	width: 100%;
+	padding: 24px 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: url("./images/light.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+article {
+	min-width: 90%;
+	padding: 24px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	border-radius: 26px;
+	background-color: #a3a090a4;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.102);
+	backdrop-filter: blur(10px);
+	color: #000000;
+}
+
+section ul {
+	margin: 0 24px;
+}
+
+section ul li {
+	list-style: decimal;
+
+	font-weight: 400;
+	font-size: min(1.1rem, 3vw);
+}
+
+section ul li:hover {
+	color: #ffffff;
+	cursor: default;
+}
